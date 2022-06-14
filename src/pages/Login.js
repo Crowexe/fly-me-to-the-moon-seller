@@ -125,22 +125,6 @@ export function Login() {
                             </button>
                         </div>
                     </form>
-
-                    <div class="mt-6">
-                        <button
-                            onClick={handleGoogleSignin}
-                            className="login-google"
-                        >
-                            Inicia sesión con Google
-                        </button>
-                    </div>
-                    <p className="go-to">
-                        ¿No tienes cuenta?&nbsp;&nbsp;
-                        <Link to="/register" className="register-link">
-                            Registrate
-                        </Link>
-                        .
-                    </p>
                 </div>
             </div>
         </div>
