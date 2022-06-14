@@ -1,6 +1,5 @@
 import { useAuth } from "../context/AuthContext";
 import "./Navbar.css";
-import { Profile } from "./Profile";
 
 export function Navbar() {
 const { logout, user } = useAuth();
@@ -33,11 +32,6 @@ const { logout, user } = useAuth();
 					<input type="text" placeholder="Buscar"/>
 				</div>
 				<div className="nav-user">					
-					<a className="nav-links">
-						<img src="https://i.imgur.com/e9IXWE1.png" alt="profile"/>						
-						Perfil
-						<button className="dropdown"><Profile /></button>			
-					</a>
 					<a className="nav-links" href="/about" onClick={handleLogout}>
 						<img className="logout-icon" src="https://i.imgur.com/zNCUO9b.png" alt="logout"/>
 						Cerrar sesión
