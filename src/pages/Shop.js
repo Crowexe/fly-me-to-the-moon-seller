@@ -108,7 +108,6 @@ export default function Boletos() {
                 <div>Aerolinea</div>
                 <div>Destino</div>
                 <div>Origen</div>
-                <div>Escalas</div>
                 <div>Estadia</div>
                 <div>Fecha de ida</div>
                 <div>Fecha de regreso</div>
@@ -120,7 +119,6 @@ export default function Boletos() {
                 <input>{doc.compania}</input>
                 <input>{doc.destino}</input>                
                 <input>{doc.origen}</input>
-                <input>{doc.escala}</input>
                 <input>{doc.estanciad}</input>
                 <input>{doc.fecida}</input>
                 <input>{doc.fecvuelta}</input>
