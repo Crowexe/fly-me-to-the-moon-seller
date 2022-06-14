@@ -1,0 +1,76 @@
+.Profile-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Profile{
+    background-color: rgba(0, 0, 0, 0.31);
+    height: 95vh;
+    width: 95vw;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.Profile-card {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    width: fit-content;
+    background-color: #f9fafb15;
+    border: 1px solid rgba(113 119 144 / 25%);
+    display: grid;
+    justify-self: center;
+    align-items: center;
+}
+
+.Profile-card-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.name-user {
+    margin: 10px;
+    font-size: x-large;
+    color: #f9fafb;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.user-name {
+    margin: 10px;
+    font-size: large;
+    color: #f9fafb;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(113 119 144 / 25%);
+    padding: 0 30px;
+}
+
+.user-name a {
+    padding: 27px 30px;
+    color: rgb(113 119 144 / 78%);
+    transition: 0.3s;
+    background-color: transparent;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+
+
+  

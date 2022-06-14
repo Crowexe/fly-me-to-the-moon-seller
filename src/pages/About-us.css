@@ -1,0 +1,108 @@
+.About-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+  
+  .About{
+    background-color: rgba(0, 0, 0, 0.31);
+    height: 95vh;
+    width: 95vw;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500;
+}
+  
+
+.About-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.About-contenido h1 {
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #f9fafb;
+    margin-bottom: 1rem;
+}
+
+.cards-contenedor {
+    display: flex;
+}
+
+.cards-contenedor img {
+    width: 15vw;
+    margin: 1vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.cards-contenedor img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: blur(5px);
+}
+
+.card, .card .team-img {
+  position: relative;
+}
+
+.card {
+  overflow: hidden; 
+}
+
+.miembro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.card:hover .miembro {
+  top: 35%;
+}
+
+.card:hover .miembro:hover {
+  opacity: 1;
+}
+
+.miembro {
+  top: 0;
+  opacity: 0;
+  -webkit-transform: translateY(-55%);
+  -ms-transform: translateY(-55%);
+  transform: translateY(-55%);
+  -webkit-transition: all 0.3s 0.2s;
+  transition: all 0.3s 0.2s;
+  padding: 0 20px;
+  text-align: center;
+  color: #222;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.miembro h2 {
+  margin-top: 8rem;
+  color: #f9fafb;
+}
+
+.card:hover .miembro {
+  bottom: 10%;
+  opacity: 1;
+}
