@@ -108,6 +108,7 @@ export default function Boletos() {
                 <div>Aerolinea</div>
                 <div>Destino</div>
                 <div>Origen</div>
+                <div>Escalas</div>
                 <div>Estadia</div>
                 <div>Fecha de ida</div>
                 <div>Fecha de regreso</div>
